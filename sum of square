@@ -1,0 +1,18 @@
+package practical1;
+
+public class sum_square {
+    public static void main(String[] args) {
+    	
+    	        int sum = 0;
+    	        int square = 0;
+
+    	        for (int i = 12; i <= 20; i++) {
+    	           square = i * i ;
+    	           sum = sum + square ;
+    	        }
+
+    	        System.out.println("Sum of squares from 12 to 20 = " + sum);
+    	    }
+  }
+
+
